@@ -1,4 +1,4 @@
-namespace BookStoreApi;
+namespace RestApiWithMongoDb;
 
 public class WeatherForecast
 {

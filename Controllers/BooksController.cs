@@ -2,7 +2,7 @@ using RestApiWithMongoDb.Models;
 using RestApiWithMongoDb.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookStoreApi.Controllers;
+namespace RestApiWithMongoDb.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

@@ -16,9 +16,10 @@ builder.Services.AddSingleton<IMongoDatabase>(option=>{
     return mongoClient.GetDatabase(mongoSettings.DatabaseName);
 });
 
-//List of Service added here as singleton
+//List of Services added here as singleton
 builder.Services.AddSingleton<BooksService>();
 builder.Services.AddSingleton<PersonsService>();
+builder.Services.AddSingleton<LeaveEntryService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

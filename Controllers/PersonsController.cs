@@ -2,7 +2,7 @@ using RestApiWithMongoDb.Models;
 using RestApiWithMongoDb.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace PersonstoreApi.Controllers;
+namespace RestApiWithMongoDb.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
